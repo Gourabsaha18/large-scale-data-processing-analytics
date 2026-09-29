@@ -1,0 +1,20 @@
+# Python virtual environments
+venv/
+.venv/
+large_data/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw/processed data
+data/raw/*.csv
+data/processed/*
+output/visualizations/*
+output/reports/*
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
