@@ -10,7 +10,7 @@ The project uses the **Olist Brazilian E-Commerce Public Dataset** to build an e
 
 Explore the interactive dashboard built with Streamlit:
 
-[**Open the Olist E-Commerce Analytics Dashboard**](https://large-scale-data-processing-analytics-8prhz9zz8j8gskrry24ml9.streamlit.app/)
+[![Olist E-Commerce Analytics Dashboard](docs/dashboard.png)](YOUR_STREAMLIT_APP_URL)
 
 ---
 
