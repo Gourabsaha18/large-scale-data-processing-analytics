@@ -6,6 +6,14 @@ The project uses the **Olist Brazilian E-Commerce Public Dataset** to build an e
 
 ---
 
+## Live Dashboard
+
+Explore the interactive dashboard built with Streamlit:
+
+[**Open the Olist E-Commerce Analytics Dashboard**](https://large-scale-data-processing-analytics-8prhz9zz8j8gskrry24ml9.streamlit.app/)
+
+---
+
 ## Project Overview
 
 The goal of this project is to demonstrate an end-to-end workflow for processing and analyzing a large structured e-commerce dataset.
@@ -23,6 +31,25 @@ The pipeline covers:
 - Payment-method analysis
 - Delivery-performance analysis
 - Interactive Streamlit visualization
+
+---
+
+## Key Insights
+
+The analysis of the Olist Brazilian E-Commerce dataset provides insights into
+order performance, revenue, and delivery operations.
+
+- **Order Volume:** The dataset contains 99,441 orders.
+- **Revenue:** The analytics pipeline calculates total revenue of approximately
+  R$ 14.21 million.
+- **Delivery Performance:** Delivery analysis helps identify orders delivered
+  on time, delayed orders, and orders with unavailable delivery information.
+- **Customer and Order Analysis:** The pipeline combines customer, order,
+  payment, review, and order-item data to support business analysis.
+- **Data Processing:** PySpark is used to clean, transform, and process the
+  dataset, while SQL is used for analytical queries.
+
+These insights are presented through the interactive Streamlit dashboard.
 
 ---
 
@@ -454,3 +481,48 @@ B.Tech — Computer Science and Business System
 Technologies demonstrated in this project:
 
 `Python` `PySpark` `SQL` `Parquet` `Pandas` `Plotly` `Streamlit`
+
+## Live Dashboard
+
+[Open the Interactive Streamlit Dashboard](YOUR_STREAMLIT_URL)
+
+## Dashboard Preview
+
+![Olist Analytics Dashboard](docs/dashboard.png)
+
+## Project Architecture
+
+![Project Architecture](docs/architecture.png)
+
+## Key Insights
+
+- Total revenue: ₹14.21 million.
+- Total order items: 118,434.
+- Unique orders: 99,441.
+- Average order value: ₹142.89.
+- Late delivery rate: 6.55%.
+
+## Technologies Used
+
+- Python
+- PySpark
+- SQL
+- Parquet
+- Streamlit
+- Plotly
+
+## Project Features
+
+- Data loading and processing.
+- Data quality checks.
+- ETL pipeline using PySpark.
+- SQL-based analytical queries.
+- Interactive dashboard with filters.
+- Revenue and delivery performance analysis.
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
