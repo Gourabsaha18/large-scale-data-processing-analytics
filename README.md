@@ -8,9 +8,12 @@ The project uses the **Olist Brazilian E-Commerce Public Dataset** to build an e
 
 ## Live Dashboard
 
-Explore the interactive dashboard built with Streamlit:
+The interactive dashboard provides insights into order performance,
+revenue, and delivery analytics.
 
-[![Olist E-Commerce Analytics Dashboard](docs/dashboard.png)]([YOUR_STREAMLIT_APP_URL](https://large-scale-data-processing-analytics-8prhz9zz8j8gskrry24ml9.streamlit.app/))
+![Olist E-Commerce Analytics Dashboard](docs/dashboard.png)
+
+[**Open the Live Dashboard**](https://large-scale-data-processing-analytics-8prhz9zz8j8gskrry24ml9.streamlit.app/)
 
 ---
 
