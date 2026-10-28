@@ -1,3 +1,4 @@
+
 # Python virtual environments
 venv/
 .venv/
@@ -8,9 +9,18 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Raw/processed data
+# Raw data - exclude CSV files
 data/raw/*.csv
+
+# Processed data
+# Ignore everything in processed
 data/processed/*
+
+# Allow the analytics dataset required by Streamlit
+!data/processed/order_analytics/
+!data/processed/order_analytics/**
+
+# Output files
 output/visualizations/*
 output/reports/*
 
@@ -18,3 +28,5 @@ output/reports/*
 .DS_Store
 .idea/
 .vscode/
+# Hadoop checksum files
+*.crc
